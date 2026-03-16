@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+
+        #hero {
+            width: 100%;
+            height: 1fr;
+            min-height: 540px;
+            background-image: url("./images/cosmos.jpeg");
+            background-size: 100%;
+        }
+
+        .heroContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 80px 40px;
+            gap: 32px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: end;
+            padding: 16px 40px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 16px;
+            list-style: none;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        .textfield {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 400px;
+        }
+
+        input {
+            color: #101010;
+        }
+
+        button {
+            color: #101010;
+        }
+
+        footer {
+            background-color: #6e6e6e;
+        }
+
+        a:hover {
+            color: #cdcdcd;
+        }
+    </style>
+</head>
+<body>
+    <div id="hero">
+        <nav>
+            <ul>
+                <li><a href="#Alice">Alice</a></li>
+                <li><a href="#Bob">Bob</a></li>
+                <li><a href="#Caat">Caat</a></li>
+            </ul>
+        </nav>
+        <div class="heroContent">
+            <h1>Cats save the world</h1>
+            <div class="textContext">
+                <p>The world can feel loud, fast, and a little too serious. Cats remind us to slow down.
+                <br>Quiet observers, expert nappers, and occasional agents of chaos — they turn ordinary moments into calm ones.</p>
+                <p>Maybe cats aren’t literally saving the world.<br>But they do make it softer.</p>
+            </div>
+            <div class="textfield">
+                <input type="text">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All right reserve ~~</p>
+        <p>Email: albenyu12@gmail.com</p>
+    </footer>
+</body>
+</html>
